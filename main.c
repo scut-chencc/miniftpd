@@ -135,7 +135,7 @@ unsigned int hash_fun(void* key,int hashtable_size)
 }
 
 /*
- * 接收子进程退出消息，维护clients变量和每ip客户端数目
+ *  接收子进程退出消息，维护clients变量和每ip客户端数目
  */
 void handle_sigchld(int signal)
 {
